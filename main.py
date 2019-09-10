@@ -8,7 +8,7 @@ from brute_force import execute_brute_force
 from DpR import execute_DpR
 from utils import GRID_SIZE
 
-ALGO = sys.argv[1] # Algo à utiliser
+ALGO = sys.argv[1] # Algo à utiliser DPR ou BF
 NB_POINTS = int(sys.argv[2]) # Nombre de points à générer
 
 
